@@ -278,7 +278,7 @@ class AirtestPoco(object):
             ...： other sdk 实现的属性
         :return:
         """
-        self.poco_obj(**kwargs).attr(name)
+        return self.poco_obj(**kwargs).attr(name)
 
     def poco_freeze(self, **kwargs):
         """冻结UI树并返回当前的UI结果树"""

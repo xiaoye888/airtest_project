@@ -38,4 +38,4 @@ class TestVenueBooking:
 
 
 if __name__ == '__main__':
-    pytest.main([''])
+    pytest.main(['test_venue_booking.py'])
